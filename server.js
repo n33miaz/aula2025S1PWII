@@ -1,7 +1,8 @@
 const application = require('./index');
 
-require('dotenv').config();
-const PORT = process.env.PORT;
+require('dotenv').config(); // carrrega variaveis de ambiente '.env'
+
+const PORT = process.env.PORT; // define a porta
 
 application.listen
 (
